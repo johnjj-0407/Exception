@@ -1,6 +1,7 @@
 package exceptionHandling;
 
 public class Name {
+	@SuppressWarnings("null")
 	public static void main(String[]args) {
 		System.out.println("welcome");
 		String name=null;
@@ -23,6 +24,9 @@ public class Name {
 		System.out.println("Thank you");
 		String x="Hello";
 		System.out.println(x.indexOf('O'));
+	@SuppressWarnings("unused")
+	String y="Hai";
+	System.out.println(x.indexOf('a'));
 	}
 
 }
